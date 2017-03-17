@@ -20,6 +20,6 @@ class BookController extends Controller
     * /books/{title?}
     */
     public function view($title = null) {
-      return 'You want to view the book '.$tilte;
+      return 'You want to view the book '.$title;
     }
 }
